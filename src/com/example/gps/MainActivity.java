@@ -24,8 +24,6 @@ public class MainActivity extends Activity {
 						Toast.LENGTH_SHORT
 					).show();
 		}
-		else {
-			gps.showSettingsAlert();
-		}
+		else gps.showSettingsAlert();
 	}
 }
