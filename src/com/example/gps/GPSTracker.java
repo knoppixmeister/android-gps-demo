@@ -39,9 +39,7 @@ public class GPSTracker implements LocationListener {
 
 			isNetworkEnabled = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
 
-			if(!isGPSEnabled && !isNetworkEnabled) {
-				Log.e("LALA", "POSITIONING IS NOT ENABLED");
-			}
+			if(!isGPSEnabled && !isNetworkEnabled) Log.e("LALA", "POSITIONING IS NOT ENABLED");
 			else {
 				this.canGetLocation = true;
 
