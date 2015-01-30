@@ -111,7 +111,7 @@ public class GPSTracker implements LocationListener {
 		return this.canGetLocation;
 	}
 
-	public void showSettingsAlert(){
+	public void showSettingsAlert() {
 		AlertDialog.Builder alertDialog = new AlertDialog.Builder(mContext);
 
         // Setting Dialog Title
@@ -138,20 +138,14 @@ public class GPSTracker implements LocationListener {
     }
 
 	public void onLocationChanged(Location location) {
-		// TODO Auto-generated method stub
 	}
 
-	@Override
 	public void onProviderDisabled(String provider) {
-		// TODO Auto-generated method stub
 	}
 
-	@Override
 	public void onProviderEnabled(String provider) {
-		// TODO Auto-generated method stub
 	}
 
 	public void onStatusChanged(String provider, int status, Bundle extras) {
-		// TODO Auto-generated method stub
 	}
 }
